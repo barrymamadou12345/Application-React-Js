@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Css/style.css';
 import './index.css';
-import Image from './component'
+import Image from '../src/composant/Image'
 
 
 
