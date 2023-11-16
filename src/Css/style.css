@@ -6,5 +6,18 @@
   margin: 80px;
 }
 .css{
+  text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rond{
+  width: 300px;
+  height: 230px;
+  border-radius: 50%;
+}
+.zoo{
+  width: 70%;
+}
+
+.centre{
+  margin: auto;
 }

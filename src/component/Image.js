@@ -19,13 +19,18 @@ export default function Image() {
     return (
       images.map((nomImage) => {
         return (
-          <img src={nomImage} className='w-80 mt-5 ms-12 rounded' alt="Une image" />
+          <img src={nomImage} className='w-60 mt-5 ms-12 rond' alt="Une image" />
         )
       })
     )
   }
+
   function AjoutImageName(ev) {
     setImage(ev.target.value);
+  }
+  function AjoutImage(ev) {
+    let newImage = [...images, image];
+    setImages(newImage);
   }
 
   useEffect(() => {
@@ -40,14 +45,14 @@ export default function Image() {
 
   return (
     <div className="container m-auto">
-          <div className=' flex items-center justify-between'>
-      {
-        <ImagesComposant />
-      }
-    </div>
-      <div className='my-5'>
-        <input type="text" onChange={AjoutImageName} className='border-2 border-blue-900 w-50 ms-12 shadow rounded p-3 mr-2 outline-none' />
-        <button className='bg-blue-400 text-white rounded p-3' onClick={AjoutImageName}>Nom de l'image</button>
+      <div className=' flex items-center justify-center'>
+        {
+          <ImagesComposant />
+        }
+      </div>
+      <div className='my-5 flex items-center justify-center'>
+        <input type="text" onChange={AjoutImageName} className='border-2 border-blue-900 zoo ms-12 shadow rounded p-3 mr-2 outline-none' />
+        <button className='bg-blue-400 text-white rounded p-3' onClick={AjoutImage}>Nom de l'image</button>
       </div>
     </div>
   )
