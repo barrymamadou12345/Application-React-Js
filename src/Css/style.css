@@ -15,9 +15,84 @@
   border-radius: 50%;
 }
 .zoo{
-  width: 70%;
+  width: 80%;
 }
 
 .centre{
   margin: auto;
+}
+
+.compteur{
+  width: 120px;
+  height: 80px;
+  border: 3px solid green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yes{
+  font-size: 45px;
+  color: blue;
+  font-family: Georgia;
+}
+.good{
+  width: 100%;
+  margin: auto;
+}
+.volum{
+  width: 60%;
+  margin: auto;
+}
+.loum{
+  margin: auto;
+  width: 40%;
+}
+.polo{
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+.long{
+  width: 70%;
+  margin: auto;
+}
+.long2{
+  width: 67%;
+}
+
+@media screen and (max-width: 1145px) {
+  .norm{
+    flex-direction: column;
+    margin: auto;
+    padding-right: 40px;
+  }
+  .zoo{
+    height: 47px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .lom{
+    flex-direction: column;
+  }
+  .long{
+    width: 70%;
+  }
+  .long2{
+    width: 67%;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  
+  .long{
+    width: 90%;
+  }
+  .long2{
+    width: 57%;
+  }
 }

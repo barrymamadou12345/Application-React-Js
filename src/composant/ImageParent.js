@@ -61,7 +61,7 @@ export default function ImageParent() {
 
   return (
     <div className="container m-auto">
-      <div className=' flex items-center justify-center'>
+      <div className=' flex items-center justify-center norm'>
         {
           <ImagesComposant />
         }
