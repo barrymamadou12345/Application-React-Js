@@ -7,5 +7,5 @@ import App2 from './App2';
 
 ReactDOM.render(<div>
   <App titre = 'Bonjour La Famille !' />,
-  <App2 titre2 = 'Mon deuxiem Exercice' />
+  <App2 titre2 = 'Mon deuxième Exercice' />
 </div>, document.querySelector('#root')) ;
